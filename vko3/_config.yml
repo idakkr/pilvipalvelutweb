@@ -2,8 +2,4 @@ title: Jekyll:iä käyttävä sivusto
 description: Tervetuloa sivustolleni!
 theme: no-style-please
 
-header_pages:
-- index.md
-- vko2.md
-
 github_username: idakkr
