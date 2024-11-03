@@ -1,6 +1,6 @@
 ## Tervetuloa GitHub Pages -sivustolleni!
 GitHub Pages sivuni, jossa Jekyll teema
-Täältä löytyvät tehtäväpalautukset: 
+## Täältä löytyvät tehtäväpalautukset: 
 - [Viikko 1](vko1.html)
 - [Viikko 2](vko2.md)
 - Viikko 3
