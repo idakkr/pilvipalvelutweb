@@ -11,4 +11,4 @@ On todella tärkeää valita juuri oikeat, sopivat työkalut ja menetelmät CI/C
 
 CI/CD putkiston rakentamisen vaiheita web-sovellukselle prosessissa ovat koodin testaus, rakentaminen, containerointi (mahdollista esimerkiksi Dockerilla, ei pakollista prosessin kannalta), julkaiseminen ja seuraaminen.
 
-[Takaisin](index.md)
+[Takaisin etusivulle](index.md)
