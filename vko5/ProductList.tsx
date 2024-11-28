@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { getFirestore, collection, getDocs, addDoc } from "firebase/firestore";
+import { getFirestore, collection, addDoc } from "firebase/firestore";
 import { initializeApp  } from "firebase/app";
 import firebaseConfig from "../firebaseConfig";
 
@@ -21,7 +21,7 @@ function ProductList() {
     //
     //
     //
-        const response = await fetch('https://idakkr.github.io/pilvipalvelutweb/vko5/Api.html'); 
+        const response = await fetch('https://dummyapi.online/api/products'); 
         if (response.status === 200) {
             const jsonData: Product[] = await response.json();
             jsonData.forEach((doc) => {
@@ -33,17 +33,7 @@ function ProductList() {
         console.error('Virhe tietojen haussa:', error); 
     }
     }; 
-
-    // Lataa tietoja Firestoresta
-    const fetchDataFromFs = async () => {
-        const querySnapshot = await getDocs(collection(db, "product"));
-        const fetchedData: Product[] = []; 
-        querySnapshot.forEach((doc) => {
-            const docData = doc.data() as Product; 
-            fetchedData.push({ name: docData.name }); 
-        }); 
-        setProduct(fetchedData); 
-    }; 
+ 
 
     useEffect(() => {
         fetchDataFromApi(); 
