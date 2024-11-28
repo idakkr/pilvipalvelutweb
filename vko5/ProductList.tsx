@@ -21,7 +21,7 @@ function ProductList() {
     //
     //
     //
-        const response = await fetch('https://dummyapi.online/api/products'); 
+        const response = await fetch('https://idakkr.github.io/pilvipalvelutweb/vko5/Api.html'); 
         if (response.status === 200) {
             const jsonData: Product[] = await response.json();
             jsonData.forEach((doc) => {
