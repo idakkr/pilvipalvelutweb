@@ -1,14 +1,16 @@
-## Viikon 5 tehtävä
+    import React from 'react';
 
-GitHub Actionsin saa toimimaan Jekyll -sivuston kanssa, kun luo GitHub Actions -työnkulun ja määrittää ”workflow” -tiedoston. 
-Automatisointi onnistuu luomalla työnkulku, joka rakentaa Jekyll -sivuston ja julkaisee sivuston GitHub Pagesiin.
+    export default function App () {
+    React.useEffect(() => {
+            var _mtm = window._mtm = window._mtm || [];
+            _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.async=true; g.src='{YOUR_MATOMO_TAG_MANAGER_CONTAINER_URL}'; s.parentNode.insertBefore(g,s);
+    }, [])
 
-GitHub Actions -toiminnan ansiosta CI/CD-toimintoja on mahdollista luoda suoraan GitHubissa.
-
-Kyseisen putkiston rakentamiseen on mahdollista käyttää laajalti erilaisia tekniikoita ja työkaluja, joiden avulla pystytään hallitsemaan tehokkaasti koodia, rakentamista, testausta ja julkaisua.
-
-On todella tärkeää valita juuri oikeat, sopivat työkalut ja menetelmät CI/CD putkiston rakentamiseen web-sovellukselle tarpeiden mukaan.
-
-CI/CD putkiston rakentamisen vaiheita web-sovellukselle prosessissa ovat koodin testaus, rakentaminen, containerointi (mahdollista esimerkiksi Dockerilla, ei pakollista prosessin kannalta), julkaiseminen ja seuraaminen.
-
-[Takaisin etusivulle](index.md)
+    return (
+        <div>
+            <h1>Hello World</h1>
+        </div>
+    )
+   }
