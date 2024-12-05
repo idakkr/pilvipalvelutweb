@@ -6,3 +6,5 @@ Matomo Tag Manager toimiii samalla tavalla kuin Google Tag Manager. Matomo tarjo
 
 Matomo Tag Manager on avoimen lähdekoodin työkalu, jonka myötä sitä voi helposti käyttää omissa projekteissa ja harjoitustehtävissä. 
 Matomo-analytiikka tarkoittaa tagien avulla verkkosivuston käyttäjien vuorovaikutusten seuraamista, kuten klikkauksien ja verkkosivustolla tapahtuvien latausten seuraamista.
+
+[Takaisin etusivulle](index.md)
