@@ -6,7 +6,7 @@ GitHub Pages sivuni, jossa Jekyll Cayman -teema.
 - [Viikko 3](vko3/index.html)
 - [Viikko 4](vko4/index.html)
 - [Viikko 5](vko5/index.html)
-- [Viikko 6](vko6.md)
+- [Viikko 6 (Viikko 5 tehtävä)](vko6.md)
 - Tehtävä 7
 - Tehtävä 8
 - Harjoitustyö
