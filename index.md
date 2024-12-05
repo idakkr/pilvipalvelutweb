@@ -7,5 +7,5 @@ GitHub Pages sivuni, jossa Jekyll Cayman -teema.
 - [Viikko 4](vko4/index.html)
 - [Viikko 5](vko5/index.html)
 - [Matomo Tag Manager (viikko 5 tehtävä)](vko6.md)
-- [Viikko 6]
+- Viikko 6
 - Harjoitustyö
