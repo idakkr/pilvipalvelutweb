@@ -1,12 +1,6 @@
 ## Viikon 5 tehtävä
 
-GitHub Actionsin saa toimimaan Jekyll -sivuston kanssa, kun luo GitHub Actions -työnkulun ja määrittää ”workflow” -tiedoston. 
-Automatisointi onnistuu luomalla työnkulku, joka rakentaa Jekyll -sivuston ja julkaisee sivuston GitHub Pagesiin.
-
-GitHub Actions -toiminnan ansiosta CI/CD-toimintoja on mahdollista luoda suoraan GitHubissa.
-
-Kyseisen putkiston rakentamiseen on mahdollista käyttää laajalti erilaisia tekniikoita ja työkaluja, joiden avulla pystytään hallitsemaan tehokkaasti koodia, rakentamista, testausta ja julkaisua.
-
-On todella tärkeää valita juuri oikeat, sopivat työkalut ja menetelmät CI/CD putkiston rakentamiseen web-sovellukselle tarpeiden mukaan.
-
-CI/CD putkiston rakentamisen vaiheita web-sovellukselle prosessissa ovat koodin testaus, rakentaminen, containerointi (mahdollista esimerkiksi Dockerilla, ei pakollista prosessin kannalta), julkaiseminen ja seuraaminen.
+Matomo Tag Manager eli Matomon taginhallinta työkaluna mahdollistaa seurantakoodien ja tagien hallinnan verkkosivustolla ilman sivuston lähdekoodin muokkaamista. Työkalulla pystyy lisäämään, muokkaamaan ja poistamaan tagien asetuksia ilman muutoksia ja muokkauksia suoraan lähdekoodiin.
+Matomo Tag Manager toimiii samalla tavalla kuin Google Tag Manager. Matomo tarjoaa myös parantavia ominaisuuksia verkkosivuston tietosuojalle. Matomo Tag Manager on erittäin toimiva, jos haluaa käyttää Matomo-analytiikkaa ja huolehtia muun muassa verkkosivuston tietosuojasta. Pilvipalvelut web-kehityksessä kurssin harjoitustehtävässä Matomo-analytiikkaa voi hyödyntää edellä mainituissa asioissa. Matomon taginhallintatyökalu noudattaa GDPR:ää (EU:n tietosuoja-asetus). 
+Matomo Tag Manager on avoimen lähdekoodin työkalu, jonka myötä sitä voi helposti käyttää omissa projekteissa ja harjoitustehtävissä. 
+Matomo-analytiikka tarkoittaa tagien avulla verkkosivuston käyttäjien vuorovaikutusten seuraamista, kuten klikkauksien ja verkkosivustolla tapahtuvien latausten seuraamista.
