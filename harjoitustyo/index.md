@@ -1,4 +1,1 @@
-## WorkoutApp
-Let's start to track your workouts! 
-- About
-- Log In
+Harjoitustyö löytyy osoitteesta: https://idakkr.github.io/harjoitustyo/
