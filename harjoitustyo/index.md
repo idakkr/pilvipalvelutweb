@@ -1,1 +1,1 @@
-Harjoitustyö löytyy osoitteesta: https://idakkr.github.io/harjoitustyo/
+Harjoitustyö: https://idakkr.github.io/harjoitustyo/
